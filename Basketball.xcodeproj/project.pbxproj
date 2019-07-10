@@ -56,15 +56,47 @@
 		13F7676322D667320015599F /* Basketball */ = {
 			isa = PBXGroup;
 			children = (
-				13F7676422D667320015599F /* AppDelegate.swift */,
-				13F7676622D667320015599F /* art.scnassets */,
-				13F7676822D667320015599F /* ViewController.swift */,
-				13F7676A22D667320015599F /* Main.storyboard */,
-				13F7676D22D667330015599F /* Assets.xcassets */,
-				13F7676F22D667330015599F /* LaunchScreen.storyboard */,
-				13F7677222D667330015599F /* Info.plist */,
+				13F7677822D6674B0015599F /* App */,
+				13F7677922D667620015599F /* Resources */,
+				13F7677A22D667910015599F /* View Controllers */,
+				13F7677B22D6679F0015599F /* Storyboards */,
 			);
 			path = Basketball;
+			sourceTree = "<group>";
+		};
+		13F7677822D6674B0015599F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				13F7676422D667320015599F /* AppDelegate.swift */,
+				13F7677222D667330015599F /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		13F7677922D667620015599F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13F7676622D667320015599F /* art.scnassets */,
+				13F7676D22D667330015599F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13F7677A22D667910015599F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				13F7676822D667320015599F /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		13F7677B22D6679F0015599F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				13F7676A22D667320015599F /* Main.storyboard */,
+				13F7676F22D667330015599F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZN5VSJP3G;
-				INFOPLIST_FILE = Basketball/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Basketball/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GZN5VSJP3G;
-				INFOPLIST_FILE = Basketball/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Basketball/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
